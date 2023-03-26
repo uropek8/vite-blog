@@ -1,0 +1,39 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "@vue/typescript/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "plugins": [],
+  "rules": {
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        "ignores": ["Button", "Checkbox", "Textarea", "Paginator", "Toast"]
+      }
+    ],
+    "vue/no-reserved-component-names": "off",
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        "singleline": {
+          "max": 1
+        },
+        "multiline": {
+          "max": 1
+        }
+      }
+    ]
+  }
+}

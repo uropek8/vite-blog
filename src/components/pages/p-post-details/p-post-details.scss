@@ -1,0 +1,15 @@
+.p-post-details {
+  box-sizing: border-box;
+
+  .post-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .post-details__empty {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 45px;
+  }
+}

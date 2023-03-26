@@ -1,0 +1,17 @@
+.u-post-card {
+  box-sizing: border-box;
+
+  .post-card {
+    max-width: 600px;
+    width: 100%;
+    margin: 35px auto;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+
+  .post-card__content {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+  }
+}

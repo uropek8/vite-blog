@@ -1,0 +1,9 @@
+.p-home {
+  box-sizing: border-box;
+
+  .posts-list__item-action {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+}
